@@ -125,17 +125,20 @@ noNoThreeSplits = 0
 arr1=[]
 read_Data('testData.csv', arr1)
 
+nlCount = 0
 
 for i in range(len(arr1)):
     text = arr1[i]
+    text = text.replace('\n', '')
     noNoThreeSplits += int(splitEntry(text, 3, 2))
 
 arr1=[]
 read_Data('trainData.csv', arr1)
 
 for i in range(0, len(arr1)):
-    print("ENTRY: ", i)
+
     text = arr1[i]
+    text = text.replace('\n', '')
     noNoThreeSplits += int(splitEntry(text, 3, 2))
 
 print("NONO3SPLITS: ", noNoThreeSplits)
