@@ -1,5 +1,7 @@
 import numpy as np
 import string
+import codecs
+import re
 
 from keras.models import Sequential
 from keras.layers import LSTM, Dropout, Activation, Dense
@@ -11,6 +13,8 @@ EPOCHS = 20
 HIDDEN_LAYERS_DIM = 512
 LAYER_COUNT = 4
 DROPOUT = 0.2
+TRAIN_FILE = "splitTrain1.txt"
+TEST_FILE =  "splitValidation1.txt"
 
 # generic vocabulary
 characters = list(string.printable)
@@ -76,14 +80,17 @@ def build_model(gpu_count=1):
     return model
 
 # loading the text
-with open("dataset_train.txt", "r") as f:
+with codecs.open(TRAIN_FILE, "r", encoding="utf8") as f:
     text_train = f.read()
-with open("dataset_val.txt", "r") as f:
+    text_train = ''.join([x for x in text_train if x in string.printable])
+with codecs.open(TEST_FILE, "r", encoding="utf8") as f:
     text_val = f.read()
+    text_val = ''.join([x for x in text_val if x in string.printable])
 
 text_train_len = len(text_train)
 text_val_len = len(text_val)
 print("Total of %d characters" % (text_train_len + text_val_len))
+
 
 for ix, (X,y) in enumerate(batch_generator(text_train, count=1)):
     # describe some samples from the first batch
