@@ -8,10 +8,10 @@ from keras.layers import LSTM, Dense, Activation
 
 LAYER_COUNT = 4
 HIDDEN_LAYERS_DIM = 512
-BACKWARDS_MODEL = "train1.w"
+BACKWARDS_MODEL = "test1.w"
 FORWARDS_MODEL = "train2.w"
 
-SEED = " SUNDAY"
+SEED = "GOOD"
 reci = []
 
 # generic vocabulary
@@ -21,8 +21,6 @@ characters.remove('\x0c')
 
 VOCABULARY_SIZE = len(characters)
 characters_to_ix = {c:i for i,c in enumerate(characters)}
-print("vocabulary len = %d" % VOCABULARY_SIZE)
-print(characters)
 
 test_backwards = Sequential()
 test_forewards = Sequential()
@@ -80,45 +78,73 @@ def predict_next_char(model, current_char, diversity=1.0):
     next_char = characters[next_char_ix]
     return next_char
 
-def combine_text(backwards_model, forewards_model, seed="I am", count=140):
+def to_text(text):
+    noviText =[]
+#    text.
+    for i in range(len(text)):
+        if (text[i] == "\n" and i!=1):
+            noviText.append(" ")
+            break
+        noviText.append(text[i])
+
+    return noviText
+
+def print_text(text):
+    for i in range(len(text)):
+        sys.stdout.write(text[i])
+
+def combine_text(backwards_model, forewards_model, seed="HELLO WORLD", count=140):
+    seed+=" "
+    seed = seed[::-1]
+    seed = seed.upper()
+
     backwards = generate_text(backwards_model, seed, count)
+    backwards = to_text(backwards)
 
     backwards.reverse()
-    reci.clear()
+    seed = seed[::-1]
+    backwards.append(" ")
+    for i in range(len(seed)):
+        backwards.append(seed[i])
 
-    forewards = generate_text(forewards_model, seed, count)
+    newSeed = ''.join(backwards)
+    newSeed.strip()
+    newSeed+=" "
+
+    reci.clear()
+    print(newSeed)
+
+    #print("\nSLEDECI DEO \n")
+
+    forewards = generate_text(forewards_model, newSeed, count)
+    #print(forewards)
+    #forewards = to_text(forewards)
+    print_text(forewards)
 
     reci.clear()
 
 def generate_text(model, seed="I am", count=140):
     """Generate characters from a given seed"""
     model.reset_states()
+   # print("\n U GENERATE TEXT, SEED JE : \n")
+   # print(seed)
     for s in seed[:-1]:
         next_char = predict_next_char(model, s)
     current_char = seed[-1]
 
-    #sys.stdout.write(seed[::-1])
-
-    sys.stdout.write(seed)
 
     for i in range(count - len(seed)):
         next_char = predict_next_char(model, current_char, diversity=0.5)
         current_char = next_char
         reci.append(next_char)
-        #sys.stdout.write(next_char)
-    #reci.reverse()
 
     return reci
-    #for i in range(len(reci)):
-     #   sys.stdout.write(reci[i])
-      #  if(reci[i]=="\n") :
-       #     break
-
-    #reci.clear()
 
 
-for i in range(5):
-    print("\nNOVI : \n")
+print("Unesite vrednost :")
+#SEED = input()
+for i in range(1):
+    print("\nNova iteracija :\n")
     combine_text(
         test_backwards,
         test_forewards,
