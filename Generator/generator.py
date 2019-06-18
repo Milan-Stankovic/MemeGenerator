@@ -81,8 +81,14 @@ def predict_next_char(model, current_char, diversity=1.0):
     return next_char
 
 def combine_text(backwards_model, forewards_model, seed="I am", count=140):
-    generate_text(backwards_model, seed, count)
-    generate_text(forewards_model, seed, count)
+    backwards = generate_text(backwards_model, seed, count)
+
+    backwards.reverse()
+    reci.clear()
+
+    forewards = generate_text(forewards_model, seed, count)
+
+    reci.clear()
 
 def generate_text(model, seed="I am", count=140):
     """Generate characters from a given seed"""
@@ -101,17 +107,19 @@ def generate_text(model, seed="I am", count=140):
         reci.append(next_char)
         #sys.stdout.write(next_char)
     #reci.reverse()
-    for i in range(len(reci)):
-        sys.stdout.write(reci[i])
-        if(reci[i]=="\n") :
-            break
 
-    reci.clear()
+    return reci
+    #for i in range(len(reci)):
+     #   sys.stdout.write(reci[i])
+      #  if(reci[i]=="\n") :
+       #     break
+
+    #reci.clear()
 
 
 for i in range(5):
     print("\nNOVI : \n")
-    generate_text(
+    combine_text(
         test_backwards,
         test_forewards,
         seed=SEED
