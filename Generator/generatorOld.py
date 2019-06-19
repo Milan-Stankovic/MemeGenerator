@@ -13,7 +13,6 @@ FORWARDS_MODEL = "train2.w"
 
 SEED = "GOOD"
 reci = []
-NUMBER_OF_GENS = 5
 
 # generic vocabulary
 characters = list(string.printable)
@@ -84,10 +83,9 @@ def to_text(text):
 #    text.
     for i in range(len(text)):
         if (text[i] == "\n"):
-            noviText.append(' ')
+            noviText.append(" ")
             break
-        else :
-            noviText.append(text[i])
+        noviText.append(text[i])
 
     return noviText
 
@@ -95,37 +93,33 @@ def print_text(text):
     for i in range(len(text)):
         sys.stdout.write(text[i])
 
-def combine_text(backwards_model, forewards_model, seed="HELLO WORLD", count=300):
+def combine_text(backwards_model, forewards_model, seed="HELLO WORLD", count=140):
     seed+=" "
+    seed = seed[::-1]
     seed = seed.upper()
 
-    forewards = generate_text(forewards_model, seed, count)
-    forewards = to_text(forewards)
+    backwards = generate_text(backwards_model, seed, count)
+    backwards = to_text(backwards)
 
-    secondText = seed+ " " + ''.join(forewards)
-    secondText+=" "
-
-
-    forewards.reverse()
+    backwards.reverse()
     seed = seed[::-1]
-    newSeed = seed+' '.join(forewards)
-    newSeed.strip()
+    backwards.append(" ")
+    for i in range(len(seed)):
+        backwards.append(seed[i])
 
+    newSeed = ''.join(backwards)
+    newSeed.strip()
+    newSeed+=" "
 
     reci.clear()
+    print(newSeed)
 
-    backwards = generate_text(backwards_model, newSeed, count)
-    backwards.reverse()
-    backwards = to_text(backwards)
-    firstText = ''.join(backwards)
-    #print("PRVO GENERISANO : \n")
-    #print(secondText)
-    #print("DRUGO GENERISANO : \n")
-    #print(firstText)
-    #print("NIZ : \n")
-    #print(backwards)
-    print(firstText + secondText)
+    #print("\nSLEDECI DEO \n")
 
+    forewards = generate_text(forewards_model, newSeed, count)
+    #print(forewards)
+    #forewards = to_text(forewards)
+    print_text(forewards)
 
     reci.clear()
 
@@ -149,7 +143,7 @@ def generate_text(model, seed="I am", count=140):
 
 print("Unesite vrednost :")
 SEED = input()
-for i in range(NUMBER_OF_GENS):
+for i in range(1):
     print("\nNova iteracija :\n")
     combine_text(
         test_backwards,
