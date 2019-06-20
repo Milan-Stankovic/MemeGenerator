@@ -21,12 +21,22 @@ def read_Data(fname, arr):
     for idx, row in enumerate(inputfile):
         if idx %2 ==0:
             num =num+1
-            arr.append(row[1]);
+            arr.append(row);
 
 def write_Data(fname, content):
     text_file = open(fname, "a", encoding="utf-8")
     text_file.write(content+"\n")
     text_file.close()
+
+
+def write_CSV(savefile, txt):
+
+    with open(savefile, 'a', encoding="utf-8") as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(txt)
+        '''for i in range(0,2):
+            print("Row{", i, "] = ", txt[i])
+            writer.writerow(txt[i])'''
 
 def extractType(tokens, type, mode):
     retVal = []
@@ -50,7 +60,7 @@ def extractNonPunctuaction(tokens):
 
     return retVal
 
-def splitEntry(entry, splits, firstWordsIgnore):
+def splitEntry(entry, label, splits, firstWordsIgnore):
     retVal = []
     frontSet = []
     backSet = []
@@ -62,17 +72,17 @@ def splitEntry(entry, splits, firstWordsIgnore):
     nouns = extractType(posTokens, 'N', True);
     nonPunctuation = extractNonPunctuaction(posTokens);
 
-    print("--------------------------------------------------------------------------------------------------------------")
-    print("POS: ", posTokens)
-    print(entry)
+    #print("--------------------------------------------------------------------------------------------------------------")
+    #print("POS: ", posTokens)
+    #print(entry)
     #print("Tokens: ", tokens)
-    print("Verbs: ", verbs)
-    print("Nouns: ", nouns)
-    print("NonP: ", nonPunctuation)
+    #print("Verbs: ", verbs)
+    #print("Nouns: ", nouns)
+    #print("NonP: ", nonPunctuation)
 
 
     while splits>0 and (len(verbs)>0 or len(nouns)>0 or len(nonPunctuation)>0):
-        print("Splits: ", splits, "LENS: v - ", len(verbs), " n - ", len(nouns), " nP - ", len(nonPunctuation))
+        #print("Splits: ", splits, "LENS: v - ", len(verbs), " n - ", len(nouns), " nP - ", len(nonPunctuation))
         splitStr = ""
         if len(verbs)>0:
             choose = randint(0, len(verbs)-1)
@@ -81,7 +91,7 @@ def splitEntry(entry, splits, firstWordsIgnore):
                 splitStr = verbs[choose]
                 splits = splits - 1
             else:
-                print("FALSE Split str", verbs[choose])
+                print("")#print("FALSE Split str", verbs[choose])
             del verbs[choose]
         elif len(nouns)>0:
             choose = randint(0, len(nouns)-1)
@@ -90,7 +100,7 @@ def splitEntry(entry, splits, firstWordsIgnore):
                 splitStr = nouns[choose]
                 splits = splits - 1
             else:
-                print("FALSE Split str", nouns[choose])
+                print("")#print("FALSE Split str", nouns[choose])
             del nouns[choose]
         elif len(nonPunctuation)>0:
             choose = randint(0, len(nonPunctuation)-1)
@@ -99,15 +109,15 @@ def splitEntry(entry, splits, firstWordsIgnore):
                 splitStr = nonPunctuation[choose]
                 splits = splits - 1
             else:
-                print("FALSE Split str", nonPunctuation[choose])
+                print("")#print("FALSE Split str", nonPunctuation[choose])
             del nonPunctuation[choose]
-        print("Split str", splitStr)
+        #print("Split str", splitStr)
         if splitStr:
             temp = entry.split(splitStr[1], 1)
-            print(temp)
-            write_Data("trainFirst.txt", entry[::-1])
-            write_Data("trainSecond.txt", splitStr[1] + temp[1])
-            write_Data("splitSet.txt", splitStr[1])
+            #print(temp)
+            write_CSV("trainFirst.csv", [label, entry])
+            write_CSV("trainSecond.csv", [label, (splitStr[1] + temp[1])[::-1]])
+            write_CSV("splitSet.csv", [label, splitStr[1]])
 
     #print("LENS: v - ", len(verbs), " n - ", len(nouns), " nP - ", len(nonPunctuation))
 
@@ -117,7 +127,7 @@ def splitEntry(entry, splits, firstWordsIgnore):
     print("--------------------------------------------------------------------------------------------------------------")
     if splits > 0:
         tempR+=1
-    print("TEMP: ", tempR)
+    #print("TEMP: ", tempR)
     return tempR
 
 noNoThreeSplits = 0
@@ -128,18 +138,21 @@ read_Data('testData.csv', arr1)
 nlCount = 0
 
 for i in range(len(arr1)):
-    text = arr1[i]
+    print(arr1[i])
+    text = arr1[i][1]
+    label = arr1[i][0]
     text = text.replace('\n', '')
-    noNoThreeSplits += int(splitEntry(text, 3, 2))
+    noNoThreeSplits += int(splitEntry(text, label, 3, 2))
 
 arr1=[]
 read_Data('trainData.csv', arr1)
 
 for i in range(0, len(arr1)):
-
-    text = arr1[i]
+    print(arr1[i])
+    text = arr1[i][1]
+    label = arr1[i][0]
     text = text.replace('\n', '')
-    noNoThreeSplits += int(splitEntry(text, 3, 2))
+    noNoThreeSplits += int(splitEntry(text, label, 4, 2))
 
 print("NONO3SPLITS: ", noNoThreeSplits)
 

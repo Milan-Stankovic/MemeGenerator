@@ -14,32 +14,84 @@ def write_Data(fname, content):
     text_file.write(content+"\n")
     text_file.close()
 
-arrFirst = []
+def grupByType(fname):
+
+    inputfile = csv.reader(open(fname, 'r', encoding="utf-8"))
+
+    for idx, row in enumerate(inputfile):
+        if idx % 2 == 0 :
+            print("Reading ", idx, " = ", row)
+            if row[0] == 'ONE_DOES_NOT_SIMPLY':
+                list_OneDoes.append(row[1])
+            if row[0] == 'MOST_INTERESTING_MAN':
+                list_MostInterest.append(row[1])
+            if row[0] == 'SUCCESS_KID':
+                list_Success_KID.append(row[1])
+            if row[0] == 'BAD_LUCK_BRIAN':
+                list_BadLuck.append(row[1])
+            if row[0] == 'GOOD_GUY_GREG':
+                list_GoodGuy.append(row[1])
+            if row[0] == 'FOREVER_ALONE':
+                list_ForeverAlone.append(row[1])
+            if row[0] == 'ALL_THE_THINGS':
+                list_AllTheThings.append(row[1])
+            if row[0] == 'YO_DAWG':
+                list_YoDawg.append(row[1])
+            if row[0] == 'CONSPIRACY_KEANU':
+                list_Keanau.append(row[1])
+            if row[0] == 'WILLY_WONKA':
+                list_Willy.append(row[1])
+            if row[0] == 'WINTER_IS_COMING':
+                list_Winter.append(row[1])
+            if row[0] == 'FUTURAMA_FRY':
+                list_Futurama.append(row[1])
+            if row[0] == 'Y_U_NO':
+                list_YUN.append(row[1])
+            if row[0] == 'KERMIT_THE_FROG':
+                list_Kermit.append(row[1])
+            if row[0] == 'WHAT_IF_I_TELL_YOU':
+                list_WhatIF.append(row[1])
+
+def splitMeme(listMeme, fname1, fname2):
+    for i in range(len(listMeme)):
+        if i < 0.8*len(listMeme):
+            write_Data(fname1, listMeme[i])
+        else:
+            write_Data(fname2, listMeme[i])
+
+list_OneDoes = []
+list_MostInterest = []
+list_Success_KID = []
+list_BadLuck = []
+list_GoodGuy = []
+list_ForeverAlone = []
+list_AllTheThings = []
+list_YoDawg = []
+list_Keanau = []
+list_Willy = []
+list_Winter = []
+list_Futurama = []
+list_YUN = []
+list_Kermit = []
+list_WhatIF = []
 
 arrSecond = []
 
-read_Data('trainFirst.txt', arrFirst)
-read_Data('trainSecond.txt', arrSecond)
+grupByType('trainSecond.csv')
+splitMeme(list_OneDoes, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_MostInterest, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_Success_KID, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_BadLuck, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_GoodGuy, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_ForeverAlone, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_AllTheThings, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_YoDawg, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_Keanau, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_Willy, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_Winter, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_Futurama, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_YUN, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_Kermit, 'splitTrain2.txt', 'splitValidaton2.txt')
+splitMeme(list_WhatIF, 'splitTrain2.txt', 'splitValidaton2.txt')
 
-count = len(arrFirst)
-print(count, "-", count*0.8)
-while len(arrFirst)>0.2*count:
-    choose = randint(0, len(arrFirst) - 1)
-    write_Data('splitTrain1.txt', arrFirst[choose])
-    del arrFirst[choose]
-    print("Train entry:", len(arrFirst))
-for i in range(0, len(arrFirst)):
-    write_Data('splitValidation1.txt', arrFirst[i])
-    print("Validation entry:", i)
-
-count = len(arrSecond)
-while len(arrSecond)>0.2*count:
-    choose = randint(0, len(arrSecond) - 1)
-    write_Data('splitTrain2.txt', arrSecond[choose])
-    del arrSecond[choose]
-    print("Train entry:", len(arrSecond))
-
-for i in range(0, len(arrSecond)):
-    write_Data('splitValidation2.txt', arrSecond[i])
-    print("Validation entry:", i)
 
