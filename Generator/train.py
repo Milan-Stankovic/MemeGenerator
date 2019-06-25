@@ -8,13 +8,13 @@ from keras.layers import LSTM, Dropout, Activation, Dense
 
 N_GPU = 1
 SEQUENCE_LEN = 60
-BATCH_SIZE = 512
-EPOCHS = 20
+BATCH_SIZE = 256
+EPOCHS = 15
 HIDDEN_LAYERS_DIM = 512
-LAYER_COUNT = 4
+LAYER_COUNT = 6
 DROPOUT = 0.2
 TRAIN_FILE = "splitTrain1.txt"
-TEST_FILE =  "splitValidation1.txt"
+TEST_FILE =  "splitValidaton1.txt"
 
 # generic vocabulary
 characters = list(string.printable)
