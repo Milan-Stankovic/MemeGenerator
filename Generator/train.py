@@ -1,6 +1,7 @@
 import numpy as np
 import string
 import codecs
+from keras_self_attention import SeqSelfAttention
 import re
 
 from keras.models import Sequential
@@ -9,12 +10,12 @@ from keras.layers import LSTM, Dropout, Activation, Dense
 N_GPU = 1
 SEQUENCE_LEN = 60
 BATCH_SIZE = 256
-EPOCHS = 15
+EPOCHS = 10
 HIDDEN_LAYERS_DIM = 512
 LAYER_COUNT = 6
 DROPOUT = 0.2
-TRAIN_FILE = "splitTrain1.txt"
-TEST_FILE =  "splitValidaton1.txt"
+TRAIN_FILE = "splitTrain2.txt"
+TEST_FILE =  "splitValidaton2.txt"
 
 # generic vocabulary
 characters = list(string.printable)
@@ -71,6 +72,8 @@ def build_model(gpu_count=1):
                 input_shape=(SEQUENCE_LEN, VOCABULARY_SIZE),
             )
         )
+        if (i != (LAYER_COUNT - 1)):
+            model.add(SeqSelfAttention(attention_activation='sigmoid')),
         model.add(Dropout(DROPOUT))
 
     model.add(Dense(VOCABULARY_SIZE))
