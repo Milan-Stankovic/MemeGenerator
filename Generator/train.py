@@ -14,8 +14,8 @@ EPOCHS = 10
 HIDDEN_LAYERS_DIM = 512
 LAYER_COUNT = 6
 DROPOUT = 0.2
-TRAIN_FILE = "splitTrain2.txt"
-TEST_FILE =  "splitValidaton2.txt"
+TRAIN_FILE = "splitTrain1.txt"
+TEST_FILE =  "splitValidaton1.txt"
 
 # generic vocabulary
 characters = list(string.printable)
