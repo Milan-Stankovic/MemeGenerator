@@ -5,12 +5,15 @@ import string
 
 from keras.models import Sequential
 from keras.layers import LSTM, Dense, Activation
+from keras_self_attention import SeqSelfAttention
 
 LAYER_COUNT = 4
 HIDDEN_LAYERS_DIM = 512
 BACKWARDS_MODEL = "test1.w"
 FORWARDS_MODEL = "train2.w"
 
+
+ATTENTION = True;
 SEED = "GOOD"
 reci = []
 NUMBER_OF_GENS = 5
@@ -34,6 +37,8 @@ for i in range(LAYER_COUNT):
                 stateful=True
             )
         )
+    if (i != (LAYER_COUNT - 1) and ATTENTION):
+        test_backwards.add(SeqSelfAttention(attention_activation='sigmoid'))
     test_forewards.add(
         LSTM(
             HIDDEN_LAYERS_DIM,
@@ -42,6 +47,9 @@ for i in range(LAYER_COUNT):
             stateful=True
         )
     )
+    if (i != (LAYER_COUNT - 1) and ATTENTION):
+        test_forewards.add(SeqSelfAttention(attention_activation='sigmoid'))
+
 test_backwards.add(Dense(VOCABULARY_SIZE))
 test_backwards.add(Activation('softmax'))
 test_backwards.compile(loss='categorical_crossentropy', optimizer="adam")
@@ -94,6 +102,38 @@ def to_text(text):
 def print_text(text):
     for i in range(len(text)):
         sys.stdout.write(text[i])
+
+
+def combine_text_new(backwards_model, forewards_model, seed="HELLO WORLD", count=300):
+    seed += " "
+    seed = seed[::-1]
+    seed = seed.upper()
+
+    backwards = generate_text(backwards_model, seed, count)
+    backwards = to_text(backwards)
+
+    backwards.reverse()
+    seed = seed[::-1]
+    backwards.append(" ")
+    for i in range(len(seed)):
+        backwards.append(seed[i])
+
+    newSeed = ''.join(backwards)
+    newSeed.strip()
+    newSeed += " "
+
+    reci.clear()
+    print(newSeed)
+
+    # print("\nSLEDECI DEO \n")
+
+    forewards = generate_text(forewards_model, newSeed, count)
+    # print(forewards)
+    # forewards = to_text(forewards)
+    print_text(forewards)
+
+    reci.clear()
+
 
 def combine_text(backwards_model, forewards_model, seed="HELLO WORLD", count=300):
     seed+=" "
@@ -151,8 +191,15 @@ print("Unesite vrednost :")
 SEED = input()
 for i in range(NUMBER_OF_GENS):
     print("\nNova iteracija :\n")
-    combine_text(
-        test_backwards,
-        test_forewards,
-        seed=SEED
-    )
+    if(ATTENTION) :
+        combine_text_new(
+            test_backwards,
+            test_forewards,
+            seed=SEED
+        )
+    else :
+        combine_text(
+            test_backwards,
+            test_forewards,
+            seed=SEED
+        )
