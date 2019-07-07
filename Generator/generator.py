@@ -5,12 +5,17 @@ import string
 
 from keras.models import Sequential
 from keras.layers import LSTM, Dense, Activation
+from keras_self_attention import SeqSelfAttention
 
-LAYER_COUNT = 4
+LAYER_COUNT = 6
 HIDDEN_LAYERS_DIM = 512
-BACKWARDS_MODEL = "test1.w"
-FORWARDS_MODEL = "train2.w"
 
+FORWARDS_MODEL  = "Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch06-loss3.0446-val-loss3.0682_weights"
+BACKWARDS_MODEL= "Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch10-loss3.0922-val-loss3.0994_weights"
+OLD_MODEL= False
+
+
+ATTENTION = True
 SEED = "GOOD"
 reci = []
 NUMBER_OF_GENS = 5
@@ -34,6 +39,8 @@ for i in range(LAYER_COUNT):
                 stateful=True
             )
         )
+    if (i != (LAYER_COUNT - 1) and ATTENTION):
+        test_backwards.add(SeqSelfAttention(attention_activation='sigmoid'))
     test_forewards.add(
         LSTM(
             HIDDEN_LAYERS_DIM,
@@ -42,6 +49,9 @@ for i in range(LAYER_COUNT):
             stateful=True
         )
     )
+    if (i != (LAYER_COUNT - 1) and ATTENTION):
+        test_forewards.add(SeqSelfAttention(attention_activation='sigmoid'))
+
 test_backwards.add(Dense(VOCABULARY_SIZE))
 test_backwards.add(Activation('softmax'))
 test_backwards.compile(loss='categorical_crossentropy', optimizer="adam")
@@ -95,7 +105,50 @@ def print_text(text):
     for i in range(len(text)):
         sys.stdout.write(text[i])
 
-def combine_text(backwards_model, forewards_model, seed="HELLO WORLD", count=300):
+
+def combine_text_new(backwards_model, forewards_model, seed="HELLO WORLD", count=200):
+    seed += " "
+    seed = seed[::-1]
+    seed = seed.upper()
+
+    backwards = generate_text(backwards_model, seed, count)
+    backwards = to_text(backwards)
+
+    #print("BACKWARDS : ")
+
+    #print(backwards)
+
+    backwards.reverse()
+
+    seed = seed[::-1]
+    backwards.append(" ")
+    for i in range(len(seed)):
+        backwards.append(seed[i])
+
+    newSeed = ''.join(backwards)
+    newSeed.strip()
+    newSeed += " "
+    #print("NEW SEED IS : " + newSeed)
+
+    reci.clear()
+
+
+    # print("\nSLEDECI DEO \n")
+
+    forewards = generate_text(forewards_model, newSeed, count)
+
+    #print(forewards)
+    # forewards = to_text(forewards)
+
+    newString = ''.join(forewards)
+    #print(newString)
+
+    print_text(newSeed + newString)
+
+    reci.clear()
+
+
+def combine_text(backwards_model, forewards_model, seed="HELLO WORLD", count=200):
     seed+=" "
     seed = seed.upper()
 
@@ -106,18 +159,31 @@ def combine_text(backwards_model, forewards_model, seed="HELLO WORLD", count=300
     secondText+=" "
 
 
-    forewards.reverse()
-    seed = seed[::-1]
-    newSeed = seed+' '.join(forewards)
-    newSeed.strip()
+  #  print("Forewards je : " + secondText)
 
+
+    forewards.reverse()
+
+    #seed = seed[::-1]
+    newSeed = secondText[::-1]
+    newSeed.strip()
+   # print("New seed je : " + newSeed)
 
     reci.clear()
 
     backwards = generate_text(backwards_model, newSeed, count)
+
+  #  print("BACKWARDS : ")
+  #  print(backwards)
+
     backwards.reverse()
+
+
     backwards = to_text(backwards)
     firstText = ''.join(backwards)
+
+   # print("First text je : " + firstText)
+
     #print("PRVO GENERISANO : \n")
     #print(secondText)
     #print("DRUGO GENERISANO : \n")
@@ -147,12 +213,39 @@ def generate_text(model, seed="I am", count=140):
     return reci
 
 
-print("Unesite vrednost :")
-SEED = input()
-for i in range(NUMBER_OF_GENS):
-    print("\nNova iteracija :\n")
-    combine_text(
-        test_backwards,
-        test_forewards,
-        seed=SEED
-    )
+#print("Unesite vrednost :")
+
+seeds = [
+
+"Generating",
+#"Teaching",
+#"Meme",
+#"Science",
+#"Computer",
+#"Love",
+"Life",
+#"Sad",
+#"play games",
+#"school is boring"
+
+]
+
+#SEED = input()
+
+
+for s in seeds :
+    SEED = s
+    for i in range(NUMBER_OF_GENS):
+        print("\nNova iteracija :\n")
+        if(OLD_MODEL) :
+            combine_text(
+                test_backwards,
+                test_forewards,
+                seed=SEED
+            )
+        else :
+            combine_text_new(
+                test_backwards,
+                test_forewards,
+                seed=SEED
+            )

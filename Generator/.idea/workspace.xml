@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7b2382-e6da-4a15-be7c-f4cba326c241" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch01-loss3.0524-val-loss3.0680_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch01-loss3.0524-val-loss3.0680_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch02-loss3.0450-val-loss3.0686_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch02-loss3.0450-val-loss3.0686_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch03-loss3.0448-val-loss3.0684_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch03-loss3.0448-val-loss3.0684_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch04-loss3.0447-val-loss3.0682_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch04-loss3.0447-val-loss3.0682_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch05-loss3.0446-val-loss3.0682_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch05-loss3.0446-val-loss3.0682_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch06-loss3.0446-val-loss3.0682_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch06-loss3.0446-val-loss3.0682_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch01-loss3.1011-val-loss3.0998_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch01-loss3.1011-val-loss3.0998_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch02-loss3.0930-val-loss3.0995_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch02-loss3.0930-val-loss3.0995_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch03-loss3.0927-val-loss3.0994_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch03-loss3.0927-val-loss3.0994_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch04-loss3.0925-val-loss3.0995_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch04-loss3.0925-val-loss3.0995_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch05-loss3.0924-val-loss3.0996_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch05-loss3.0924-val-loss3.0996_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch06-loss3.0924-val-loss3.0991_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch06-loss3.0924-val-loss3.0991_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch07-loss3.0923-val-loss3.0992_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch07-loss3.0923-val-loss3.0992_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch08-loss3.0923-val-loss3.0996_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch08-loss3.0923-val-loss3.0996_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch09-loss3.0923-val-loss3.0994_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch09-loss3.0923-val-loss3.0994_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch10-loss3.0922-val-loss3.0994_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch10-loss3.0922-val-loss3.0994_weights" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,14 +40,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generatorOld.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1972">
+              <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="697">
+              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -38,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/split.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2319">
-              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            <state relative-caret-position="377">
+              <caret line="243" column="25" lean-forward="true" selection-start-line="243" selection-start-column="25" selection-end-line="243" selection-end-column="25" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -51,9 +72,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/splitValidaton2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keywordTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="1955">
               <caret line="126" column="80" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -102,6 +132,7 @@
         <option value="$PROJECT_DIR$/splitTrain2.txt" />
         <option value="$PROJECT_DIR$/split.py" />
         <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/generator.py" />
       </list>
     </option>
   </component>
@@ -160,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train">
+  <component name="RunManager" selected="Python.generator">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Generator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,6 +206,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Generator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,6 +284,9 @@
       <module name="Generator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\milan\PycharmProjects\Generator\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -248,6 +304,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generator" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.split" />
         <item itemvalue="Python.keywordTest" />
@@ -273,17 +330,22 @@
       <workItem from="1561246397766" duration="11331000" />
       <workItem from="1561547726669" duration="99000" />
       <workItem from="1561700785754" duration="10501000" />
+      <workItem from="1561900850312" duration="2098000" />
+      <workItem from="1562175960535" duration="599000" />
+      <workItem from="1562491582796" duration="610000" />
+      <workItem from="1562536743912" duration="141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34972000" />
+    <option name="totallyTimeSpent" value="38420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7511211" visible="true" weight="0.2803838" />
-      <window_info id="Structure" order="1" sideWeight="0.24887893" side_tool="true" visible="true" weight="0.2803838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74458206" visible="true" weight="0.29317698" />
+      <window_info id="Structure" order="1" sideWeight="0.25541794" side_tool="true" visible="true" weight="0.29317698" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32936078" />
@@ -297,7 +359,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24733475" side_tool="true" weight="0.496208" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.7526652" visible="true" weight="0.5167931" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.7526652" visible="true" weight="0.30010834" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,25 +381,10 @@
     <entry file="file://$PROJECT_DIR$/trainSecond.txt" />
     <entry file="file://$PROJECT_DIR$/trainFirst.txt" />
     <entry file="file://$PROJECT_DIR$/splitValidation1.txt" />
-    <entry file="file://$PROJECT_DIR$/splitValidaton2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3978" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/splitTrain1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/splitTrain1Old.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splitTrain2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18581">
-          <caret line="1093" column="25" selection-start-line="1093" selection-start-column="21" selection-end-line="1093" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generatorOld.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/trainSecond.csv">
@@ -361,19 +408,9 @@
         <state relative-caret-position="-306" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keywordTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="126" column="80" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/split.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2319">
+        <state relative-caret-position="564">
           <caret line="141" selection-start-line="141" selection-end-line="141" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -381,12 +418,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/splitTrain2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18581">
+          <caret line="1093" column="25" selection-start-line="1093" selection-start-column="21" selection-end-line="1093" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatorOld.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="697">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitValidaton2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keywordTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="126" column="80" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="243" column="25" lean-forward="true" selection-start-line="243" selection-start-column="25" selection-end-line="243" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
