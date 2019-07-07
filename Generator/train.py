@@ -12,7 +12,7 @@ SEQUENCE_LEN = 60
 BATCH_SIZE = 256
 EPOCHS = 10
 HIDDEN_LAYERS_DIM = 512
-LAYER_COUNT = 6
+LAYER_COUNT = 4
 DROPOUT = 0.2
 TRAIN_FILE = "splitTrain1.txt"
 TEST_FILE =  "splitValidaton1.txt"
@@ -72,8 +72,8 @@ def build_model(gpu_count=1):
                 input_shape=(SEQUENCE_LEN, VOCABULARY_SIZE),
             )
         )
-        if (i != (LAYER_COUNT - 1)):
-            model.add(SeqSelfAttention(attention_activation='sigmoid')),
+        #if (i != (LAYER_COUNT - 1)):
+          #  model.add(SeqSelfAttention(attention_activation='sigmoid')),
         model.add(Dropout(DROPOUT))
 
     model.add(Dense(VOCABULARY_SIZE))
@@ -103,6 +103,13 @@ for ix, (X,y) in enumerate(batch_generator(text_train, count=1)):
 
 training_model = build_model(gpu_count=N_GPU)
 
+model_json = training_model.to_json()
+with open("model4layer.json", "w") as json_file:
+    json_file.write(model_json)
+# serialize weights to HDF5
+
+
+'''
 train_batch_count = (text_train_len - SEQUENCE_LEN) // BATCH_SIZE
 val_batch_count = (text_val_len - SEQUENCE_LEN) // BATCH_SIZE
 print("training batch count: %d" % train_batch_count)
@@ -137,3 +144,4 @@ history = training_model.fit_generator(
     validation_steps=val_batch_count,
     initial_epoch=0
 )
+'''

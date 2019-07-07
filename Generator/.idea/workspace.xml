@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7e7b2382-e6da-4a15-be7c-f4cba326c241" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch01-loss3.0524-val-loss3.0680_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch01-loss3.0524-val-loss3.0680_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch02-loss3.0450-val-loss3.0686_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch02-loss3.0450-val-loss3.0686_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch03-loss3.0448-val-loss3.0684_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch03-loss3.0448-val-loss3.0684_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch04-loss3.0447-val-loss3.0682_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch04-loss3.0447-val-loss3.0682_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch05-loss3.0446-val-loss3.0682_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch05-loss3.0446-val-loss3.0682_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch06-loss3.0446-val-loss3.0682_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_1/1-gpu_BS-256_6-512_dp0.20_60S_epoch06-loss3.0446-val-loss3.0682_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch01-loss3.1011-val-loss3.0998_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch01-loss3.1011-val-loss3.0998_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch02-loss3.0930-val-loss3.0995_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch02-loss3.0930-val-loss3.0995_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch03-loss3.0927-val-loss3.0994_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch03-loss3.0927-val-loss3.0994_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch04-loss3.0925-val-loss3.0995_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch04-loss3.0925-val-loss3.0995_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch05-loss3.0924-val-loss3.0996_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch05-loss3.0924-val-loss3.0996_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch06-loss3.0924-val-loss3.0991_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch06-loss3.0924-val-loss3.0991_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch07-loss3.0923-val-loss3.0992_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch07-loss3.0923-val-loss3.0992_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch08-loss3.0923-val-loss3.0996_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch08-loss3.0923-val-loss3.0996_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch09-loss3.0923-val-loss3.0994_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch09-loss3.0923-val-loss3.0994_weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch10-loss3.0922-val-loss3.0994_weights" beforeDir="false" afterPath="$PROJECT_DIR$/Attention_6_layer_train_2/1-gpu_BS-256_6-512_dp0.20_60S_epoch10-loss3.0922-val-loss3.0994_weights" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splitTrain2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18581">
+            <state relative-caret-position="12001">
               <caret line="1093" column="25" selection-start-line="1093" selection-start-column="21" selection-end-line="1093" selection-end-column="25" />
             </state>
           </provider>
@@ -41,8 +25,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generatorOld.py">
           <provider selected="true" editor-type-id="text-editor">
+
             <state relative-caret-position="1972">
               <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+
             </state>
           </provider>
         </entry>
@@ -50,11 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -62,8 +45,41 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="243" column="25" lean-forward="true" selection-start-line="243" selection-start-column="25" selection-end-line="243" selection-end-column="25" />
+            <state relative-caret-position="433">
+              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/splitTrain1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16252" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/splitTrain1Old.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/splitTrain2Old.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/split.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2380">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -148,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,10 +171,21 @@
               <item name="Generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="Generator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Generator" type="462c0819:PsiDirectoryNode" />
+              <item name="Attention 6 layer train 1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Generator" type="462c0819:PsiDirectoryNode" />
+              <item name="Attention 6 layer train 2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,11 +197,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Fax\godina 5\MemeGenerator\Generator" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\milan\PycharmProjects\Generator" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Fax\godina 5\MemeGenerator\Generator" />
       <recent name="C:\Users\milan\PycharmProjects\Generator" />
     </key>
   </component>
@@ -218,9 +244,6 @@
       <module name="Generator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -330,22 +353,21 @@
       <workItem from="1561246397766" duration="11331000" />
       <workItem from="1561547726669" duration="99000" />
       <workItem from="1561700785754" duration="10501000" />
-      <workItem from="1561900850312" duration="2098000" />
-      <workItem from="1562175960535" duration="599000" />
-      <workItem from="1562491582796" duration="610000" />
-      <workItem from="1562536743912" duration="141000" />
+      <workItem from="1562257894241" duration="187000" />
+      <workItem from="1562258173562" duration="1535000" />
+      <workItem from="1562520634917" duration="4792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38420000" />
+    <option name="totallyTimeSpent" value="41486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74458206" visible="true" weight="0.29317698" />
-      <window_info id="Structure" order="1" sideWeight="0.25541794" side_tool="true" visible="true" weight="0.29317698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74542683" visible="true" weight="0.2889126" />
+      <window_info id="Structure" order="1" sideWeight="0.25457317" side_tool="true" visible="true" weight="0.2889126" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32936078" />
@@ -355,11 +377,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24733475" side_tool="true" weight="0.496208" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.24733475" side_tool="true" weight="0.496208" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.7526652" visible="true" weight="0.30010834" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.7526652" visible="true" weight="0.2892741" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -371,6 +393,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/Desktop/Analiza-memeova-master/MemeScraper/testData.csv" />
     <entry file="file://E:/Desktop/Analiza-memeova-master/MemeScraper/memegenerator2.csv" />
@@ -381,11 +429,10 @@
     <entry file="file://$PROJECT_DIR$/trainSecond.txt" />
     <entry file="file://$PROJECT_DIR$/trainFirst.txt" />
     <entry file="file://$PROJECT_DIR$/splitValidation1.txt" />
-    <entry file="file://$PROJECT_DIR$/splitTrain1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splitTrain1Old.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/splitValidaton2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3978" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trainSecond.csv">
       <provider selected="true" editor-type-id="text-editor">
@@ -410,7 +457,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/split.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
+        <state relative-caret-position="2380">
           <caret line="141" selection-start-line="141" selection-end-line="141" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -418,26 +465,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splitTrain2.txt">
+    <entry file="file://$PROJECT_DIR$/keywordTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18581">
-          <caret line="1093" column="25" selection-start-line="1093" selection-start-column="21" selection-end-line="1093" selection-end-column="25" />
+        <state relative-caret-position="1955">
+          <caret line="126" column="80" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generatorOld.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+        <state relative-caret-position="221">
+          <caret line="106" column="30" lean-forward="true" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitTrain2Old.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitTrain1Old.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitTrain1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16252" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitTrain2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12001">
+          <caret line="1093" column="25" selection-start-line="1093" selection-start-column="21" selection-end-line="1093" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
