@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7b2382-e6da-4a15-be7c-f4cba326c241" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Generator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model4layer.json" beforeDir="false" afterPath="$PROJECT_DIR$/model4layer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="-3171">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -95,8 +90,8 @@
         <option value="$PROJECT_DIR$/splitValidation1.txt" />
         <option value="$PROJECT_DIR$/splitTrain2.txt" />
         <option value="$PROJECT_DIR$/split.py" />
-        <option value="$PROJECT_DIR$/generator.py" />
         <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/generator.py" />
       </list>
     </option>
   </component>
@@ -119,6 +114,16 @@
             <path>
               <item name="Generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="Generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Generator" type="462c0819:PsiDirectoryNode" />
+              <item name="2_layer_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Generator" type="462c0819:PsiDirectoryNode" />
+              <item name="2_layer_2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train">
+  <component name="RunManager" selected="Python.generator">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Generator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,8 +271,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.train" />
         <item itemvalue="Python.generator" />
+        <item itemvalue="Python.train" />
         <item itemvalue="Python.split" />
         <item itemvalue="Python.keywordTest" />
       </list>
@@ -295,18 +300,18 @@
       <workItem from="1562257894241" duration="187000" />
       <workItem from="1562258173562" duration="1535000" />
       <workItem from="1562520634917" duration="4792000" />
-      <workItem from="1562582958590" duration="10422000" />
+      <workItem from="1562582958590" duration="11921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55879000" />
+    <option name="totallyTimeSpent" value="57378000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7432286" visible="true" weight="0.29637527" />
-      <window_info id="Structure" order="1" sideWeight="0.2567714" side_tool="true" visible="true" weight="0.29637527" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74248123" visible="true" weight="0.29637527" />
+      <window_info id="Structure" order="1" sideWeight="0.2575188" side_tool="true" visible="true" weight="0.29637527" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32936078" />
@@ -320,7 +325,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.24733475" side_tool="true" weight="0.496208" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.7526652" weight="0.42361864" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.7526652" visible="true" weight="0.42361864" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -476,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="-3171">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>

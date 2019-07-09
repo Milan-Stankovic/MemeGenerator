@@ -10,12 +10,12 @@ from keras_self_attention import SeqSelfAttention
 LAYER_COUNT = 2
 HIDDEN_LAYERS_DIM = 512
 
-FORWARDS_MODEL  = "Attention_2_layer_train_1/1-gpu_BS-256_2-512_dp0.20_60S_epoch01-loss3.0443-val-loss3.0572_weights"
-BACKWARDS_MODEL= "Attention_2_layer_train_2/1-gpu_BS-256_2-512_dp0.20_60S_epoch01-loss3.0988-val-loss3.0981_weights"
+FORWARDS_MODEL  = "2_layer_1/1-gpu_BS-256_2-512_dp0.20_60S_epoch03-loss1.2074-val-loss1.3678_weights"
+BACKWARDS_MODEL= "2_layer_2/1-gpu_BS-256_2-512_dp0.20_60S_epoch03-loss1.3356-val-loss1.4208_weights"
 OLD_MODEL= False
 
 
-ATTENTION = True
+ATTENTION = False
 SEED = "GOOD"
 reci = []
 NUMBER_OF_GENS = 15
