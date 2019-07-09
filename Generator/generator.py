@@ -7,18 +7,18 @@ from keras.models import Sequential
 from keras.layers import LSTM, Dense, Activation
 from keras_self_attention import SeqSelfAttention
 
-LAYER_COUNT = 6
+LAYER_COUNT = 2
 HIDDEN_LAYERS_DIM = 512
 
-FORWARDS_MODEL  = "Attention 6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch06-loss3.0446-val-loss3.0682_weights"
-BACKWARDS_MODEL= "Attention 6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch10-loss3.0922-val-loss3.0994_weights"
+FORWARDS_MODEL  = "Attention_2_layer_train_1/1-gpu_BS-256_2-512_dp0.20_60S_epoch01-loss3.0443-val-loss3.0572_weights"
+BACKWARDS_MODEL= "Attention_2_layer_train_2/1-gpu_BS-256_2-512_dp0.20_60S_epoch01-loss3.0988-val-loss3.0981_weights"
 OLD_MODEL= False
 
 
 ATTENTION = True
 SEED = "GOOD"
 reci = []
-NUMBER_OF_GENS = 5
+NUMBER_OF_GENS = 15
 
 # generic vocabulary
 characters = list(string.printable)
@@ -218,15 +218,15 @@ def generate_text(model, seed="I am", count=140):
 seeds = [
 
 "Generating",
-#"Teaching",
-#"Meme",
-#"Science",
-#"Computer",
-#"Love",
+"Teaching",
+"Meme",
+"Science",
+"Computer",
+"Love",
 "Life",
-#"Sad",
-#"play games",
-#"school is boring"
+"Sad",
+"play games",
+"school is boring"
 
 ]
 

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7b2382-e6da-4a15-be7c-f4cba326c241" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model4layer.json" beforeDir="false" afterPath="$PROJECT_DIR$/model4layer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,30 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splitTrain2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12001">
-              <caret line="1093" column="25" selection-start-line="1093" selection-start-column="21" selection-end-line="1093" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generatorOld.py">
           <provider selected="true" editor-type-id="text-editor">
-
-            <state relative-caret-position="1972">
-              <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
-
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="49" />
+            <state relative-caret-position="47">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -45,44 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
-              <folding>
-                <element signature="e#1#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splitTrain1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16252" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splitTrain1Old.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splitTrain2Old.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/split.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2380">
-              <caret line="141" selection-start-line="141" selection-end-line="141" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -147,8 +95,8 @@
         <option value="$PROJECT_DIR$/splitValidation1.txt" />
         <option value="$PROJECT_DIR$/splitTrain2.txt" />
         <option value="$PROJECT_DIR$/split.py" />
-        <option value="$PROJECT_DIR$/train.py" />
         <option value="$PROJECT_DIR$/generator.py" />
+        <option value="$PROJECT_DIR$/train.py" />
       </list>
     </option>
   </component>
@@ -164,6 +112,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,34 +120,27 @@
               <item name="Generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="Generator" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Generator" type="462c0819:PsiDirectoryNode" />
-              <item name="Attention 6 layer train 1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Generator" type="462c0819:PsiDirectoryNode" />
-              <item name="Attention 6 layer train 2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Desktop/NLU-UseCase1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\milan\PycharmProjects\Generator" />
+      <recent name="C:\Users\milan\OneDrive\Documents\GitHub\MemeGenerator\Generator\2_layer_1" />
+      <recent name="C:\Users\milan\OneDrive\Documents\GitHub\MemeGenerator\Generator\2_layer_2" />
+      <recent name="C:\Users\milan\OneDrive\Documents\GitHub\MemeGenerator\Generator\Attention_2_layer_train_1" />
+      <recent name="C:\Users\milan\OneDrive\Documents\GitHub\MemeGenerator\Generator" />
+      <recent name="C:\Users\milan\OneDrive\Documents\GitHub\MemeGenerator\Generator\Attention_4_layer_train_2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Fax\godina 5\MemeGenerator\Generator" />
@@ -217,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.generator">
+  <component name="RunManager" selected="Python.train">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Generator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,9 +249,6 @@
       <module name="Generator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="C:\Users\milan\PycharmProjects\Generator\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -327,8 +266,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.generator" />
         <item itemvalue="Python.train" />
+        <item itemvalue="Python.generator" />
         <item itemvalue="Python.split" />
         <item itemvalue="Python.keywordTest" />
       </list>
@@ -356,18 +295,18 @@
       <workItem from="1562257894241" duration="187000" />
       <workItem from="1562258173562" duration="1535000" />
       <workItem from="1562520634917" duration="4792000" />
+      <workItem from="1562582958590" duration="10422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41486000" />
+    <option name="totallyTimeSpent" value="55879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74542683" visible="true" weight="0.2889126" />
-      <window_info id="Structure" order="1" sideWeight="0.25457317" side_tool="true" visible="true" weight="0.2889126" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7432286" visible="true" weight="0.29637527" />
+      <window_info id="Structure" order="1" sideWeight="0.2567714" side_tool="true" visible="true" weight="0.29637527" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32936078" />
@@ -381,7 +320,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.24733475" side_tool="true" weight="0.496208" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.7526652" visible="true" weight="0.2892741" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.7526652" weight="0.42361864" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -418,6 +357,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/Desktop/Analiza-memeova-master/MemeScraper/testData.csv" />
@@ -429,11 +382,6 @@
     <entry file="file://$PROJECT_DIR$/trainSecond.txt" />
     <entry file="file://$PROJECT_DIR$/trainFirst.txt" />
     <entry file="file://$PROJECT_DIR$/splitValidation1.txt" />
-    <entry file="file://$PROJECT_DIR$/splitValidaton2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3978" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trainSecond.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -465,30 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keywordTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="126" column="80" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generatorOld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="106" column="30" lean-forward="true" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/splitTrain2Old.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -500,26 +424,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/splitTrain1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splitTrain2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12001">
-          <caret line="1093" column="25" selection-start-line="1093" selection-start-column="21" selection-end-line="1093" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
-          <folding>
-            <element signature="e#1#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/splitValidaton2.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -538,13 +443,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Generator/venv/Lib/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1168" selection-start-line="1168" selection-end-line="1168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitTrain2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18581">
+          <caret line="1093" column="25" selection-start-line="1093" selection-start-column="21" selection-end-line="1093" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatorOld.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="243" column="25" lean-forward="true" selection-start-line="243" selection-start-column="25" selection-end-line="243" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
