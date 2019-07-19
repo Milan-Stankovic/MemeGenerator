@@ -12,6 +12,17 @@ HIDDEN_LAYERS_DIM = 512
 
 FORWARDS_MODEL  = "2_layer_1/1-gpu_BS-256_2-512_dp0.20_60S_epoch03-loss1.2074-val-loss1.3678_weights"
 BACKWARDS_MODEL= "2_layer_2/1-gpu_BS-256_2-512_dp0.20_60S_epoch03-loss1.3356-val-loss1.4208_weights"
+
+#FORWARDS_MODEL = "Train 1/1-gpu_BS-512_4-512_dp0.20_60S_epoch01-loss1.6195-val-loss1.2517_weights"
+#BACKWARDS_MODEL = "Train 2/1-gpu_BS-512_4-512_dp0.20_60S_epoch01-loss2.2194-val-loss1.6785_weights"
+
+#FORWARDS_MODEL = "Attention_4_layer_train_1/1-gpu_BS-256_4-512_dp0.20_60S_epoch01-loss3.0447-val-loss3.0643_weights"
+#BACKWARDS_MODEL= "Attention_4_layer_train_2/1-gpu_BS-256_4-512_dp0.20_60S_epoch01-loss3.1233-val-loss3.0936_weights"
+
+#FORWARDS_MODEL = "6 layer train 1/1-gpu_BS-256_6-512_dp0.20_60S_epoch01-loss3.0321-val-loss3.0518_weights"
+#BACKWARDS_MODEL = "6 layer train 2/1-gpu_BS-256_6-512_dp0.20_60S_epoch01-loss3.0899-val-loss3.0935_weights"
+
+
 OLD_MODEL= False
 
 
