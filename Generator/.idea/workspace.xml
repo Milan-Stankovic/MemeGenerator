@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7b2382-e6da-4a15-be7c-f4cba326c241" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3536">
+            <state relative-caret-position="102">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
@@ -35,7 +35,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/splitTrain1.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -94,6 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,7 +115,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,6 +177,9 @@
       <module name="Generator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -290,17 +297,20 @@
       <workItem from="1562754408295" duration="4000" />
       <workItem from="1563007623410" duration="540000" />
       <workItem from="1563010942719" duration="1183000" />
+      <workItem from="1563893791577" duration="23000" />
+      <workItem from="1563893887031" duration="255000" />
+      <workItem from="1563952540547" duration="611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60598000" />
+    <option name="totallyTimeSpent" value="61487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7353952" visible="true" weight="0.30916846" />
-      <window_info id="Structure" order="1" sideWeight="0.2646048" side_tool="true" visible="true" weight="0.30916846" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7296849" visible="true" weight="0.22867803" />
+      <window_info id="Structure" order="1" sideWeight="0.27031508" side_tool="true" visible="true" weight="0.22867803" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32936078" />
@@ -314,7 +324,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.24733475" side_tool="true" weight="0.496208" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.7526652" visible="true" weight="0.36944744" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.7526652" visible="true" weight="0.34669557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -467,7 +477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3536">
+        <state relative-caret-position="102">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
@@ -476,7 +486,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/splitTrain1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
